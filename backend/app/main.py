@@ -18,6 +18,7 @@ logger = logging.getLogger(__name__)
 # Load environment variables
 load_dotenv()
 
+
 # Environment configuration
 ENVIRONMENT = os.getenv("ENVIRONMENT", "development")
 HOST = os.getenv("HOST", "0.0.0.0")
